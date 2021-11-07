@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
-  margin-left: 25px;
+  margin-left: 1.5625rem;
   color: black;
   background-color: #ACBED8;
   font-family: 'Lato', sans-serif;
-  line-height:  24px;
-  letter-spacing: 1px;
+  line-height:  1.5rem;
+  letter-spacing: 0.0625rem;
 }
 
 h1,
@@ -21,24 +25,50 @@ h3  {
 }
 
 h1 {
-  font-size: 35px;
+  font-size: 2.1875rem;
 }
 
 h2 {
   text-decoration: underline;
-  font-size: 26px;
+  font-size: 1.625rem;
 
 }
 
 h3 {
   color: #000;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 hr.header,
 hr.footer {
-  border-top: 3px solid black;
+  border-top: 0.1875rem solid black;
+}
+/* 
+.header-nav {
+  border: 1px solid;
+} */
+
+.header-nav li a {
+  text-decoration: none;
+}
+
+#home,
+#about,
+#blog,
+#store,
+#contact {
+  border: 0.0625rem solid;
+  padding: 0.625rem;
+}
+
+#home:hover,
+#about:hover,
+#blog:hover,
+#store:hover,
+#contact:hover {
+  background-color: #709EDF;
+  
 }
 
 div.page_intro_paragraph p  {
@@ -47,8 +77,8 @@ div.page_intro_paragraph p  {
 }
 
 table {
-  line-height: 16px;
-  letter-spacing: 1px;
+  line-height: 1rem;
+  letter-spacing: 0.0625rem;
   background-color: #709EDF;
   width: 75%;
 }
@@ -58,11 +88,11 @@ thead {
 }
 
 th {
-  padding: 10px;
+  padding: 0.625rem;
 }
 
 td {
-  padding: 15px;
+  padding: 0.9375rem;
 }
 
 header {
@@ -76,7 +106,7 @@ h1.site-title {
 }
 
 .logo {
-  margin-right: 15px;
+  margin-right: 0.9375rem;
   border-radius: 50%;
 }
 
@@ -85,9 +115,9 @@ h1.site-title {
  box-sizing: border-box; */
   float: right;
   margin-right: 5%;
-  margin-bottom: 25px;
-  height: 300px;
-  width: 500px;
+  margin-bottom: 1.5625rem;
+  height: 18.75rem;
+  width: 31.25rem;
 }
 
 div.header-logo {
@@ -96,8 +126,8 @@ div.header-logo {
 
 .header-logo img{
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 6.25rem;
+  height: 6.25rem;
 }
 
 header ul li {
@@ -116,15 +146,15 @@ section.cta {
   /* width: 200px;
   height: 100px;
   background: red; */
-  border-radius: 100px / 50px;
+  border-radius: 6.25rem / 3.125rem;
 
   color: #000;
   margin: 0;
-  margin-top: 50px;
-  margin-right: 350px;
-  margin-left: 350px;
-  margin-bottom: 50px;
-  border: 3px solid #2D3F59;
+  margin-top: 3.125rem;
+  margin-right: 21.875rem;
+  margin-left: 21.875rem;
+  margin-bottom: 3.125rem;
+  border: 0.1875rem solid #2D3F59;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -138,10 +168,36 @@ form {
   background-color: #709EDF;
 }
 
+
 form button.submit-button  {
   color: #ACBED8;
   background-color: #2D3F59 ;
 }
+
+
+/* ==== Skeuomorphic template for Codecademy lesson ===*/
+
+
+form button {
+  padding: 0.3125rem;
+  border: 0.0625rem solid black;
+  border-radius: 0.3125rem;
+  text-decoration: none;
+  box-shadow: 0rem 0.3125rem;
+}
+ 
+form button:hover {
+  cursor: pointer;
+}
+ 
+form button:active {
+  margin-top: 0.3125rem;
+  color: black;
+  box-shadow: 0rem 0rem;
+}
+
+/* ==== End of template  ===*/
+
 
 /* p .cta {
   margin: 0;
@@ -149,11 +205,11 @@ form button.submit-button  {
 } */
 
 footer .page-footer {
-  margin-left: 400px;
-  margin-right: 400px;
+  margin-left: 25rem;
+  margin-right: 25rem;
   display: flex;
   flex-direction: row;
-  padding-top: 25px;
+  padding-top: 1.5625rem;
 }
 
 footer .page-footer ul {
@@ -163,7 +219,7 @@ footer .page-footer ul {
 footer .helpful-links,
 footer .brand-map,
 footer .social-map {
-  padding-left: 25px;
+  padding-left: 1.5625rem;
 }
 
 /* footer .helpful-links {
@@ -175,5 +231,6 @@ footer .brand-map {
 }
 
 footer .social-map {
-  flex: 6; */
+  flex: 6; 
 }
+*/
